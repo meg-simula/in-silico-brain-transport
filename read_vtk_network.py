@@ -28,7 +28,7 @@ def read_vtk_network(filename, rescale_mm2m=True):
     roots.array()[:] = netw["root"]
     netw = netw.point_data_to_cell_data()
 
- if rescale_mm2m:
+    if rescale_mm2m:
         radii.array()[:] = netw["radius"] * 1e-3 # scale to m
     else:
         radii.array()[:] = netw["radius"]
