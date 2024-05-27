@@ -1,0 +1,24 @@
+name: brain_transport
+channels:
+  - conda-forge
+dependencies:
+  - fenics-dolfin
+  - python=3.9    
+  - numpy
+  - numpy-indexed
+  - matplotlib
+  - pyvista
+  - scikit-image
+  - meshio
+  - seaborn
+  - nibabel
+  - pip
+  - typer
+  - pykdtree
+  - bioconda::snakemake
+  - pip:
+    - pyacvd
+    - cmocean
+    - dufte
+    - kimimaro
+    - git+https://github.com/MariusCausemann/wildmeshing-python.git
