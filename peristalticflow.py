@@ -493,7 +493,7 @@ if __name__ == '__main__':
     # image-based network
 
     # To run:
-    # $ mamba activate pvs_transport_env
+    # $ mamba activate brain_transport
     # $ python3 peristalticflow.py --frequency 1.0 --wavelength 2000.0 --amplitude 0.01 --beta 3.0 --recompute # Cardiac
     # $ python3 peristalticflow.py --frequency 0.1 --wavelength 80.0 --amplitude 0.1 --beta 3.0 
     #
