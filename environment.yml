@@ -16,6 +16,7 @@ dependencies:
   - typer
   - pykdtree
   - bioconda::snakemake
+  - voila
   - pip:
     - pyacvd
     - cmocean
