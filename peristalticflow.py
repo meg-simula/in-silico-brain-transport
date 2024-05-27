@@ -7,7 +7,7 @@ import networkx as nx
 import dolfin as df
 import numpy as np
 
-import read_vtk_network
+from read_vtk_network import read_vtk_network
 
 import pvs_network_netflow as pnf
 
