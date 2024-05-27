@@ -1,4 +1,11 @@
 import pyvista as pv
+
+def remove_duplicate_cells(netw):
+    cells = np.array(netw.cells.reshape(-1, 3))[:,1:]
+    cells.sort(axis=1)
+    unique_cells = np.unique(cells, axis=0)
+    netw.cells = np.pad(unique_cells, pad_width=((0,0), (1,0)), constant_values=2)
+    
 def read_vtk_network(filename, rescale_mm2m=True):
     """Read the VTK file given by filename, return a FEniCS 1D Mesh representing the network, a FEniCS MeshFunction (double) representing the radius of each vessel segment (defined over the mesh cells), and a FEniCS MeshFunction (size_t) defining the roots of the network (defined over the mesh vertices, roots are labelled by 2 or 1.) 
 
