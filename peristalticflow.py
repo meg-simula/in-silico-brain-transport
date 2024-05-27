@@ -477,7 +477,7 @@ def main(args):
 
     # Define input network (.vtk) and output directory
     filename = "arteries_smooth.vtk"
-    output = "../arterial_trees"
+    output = "..in-silico-brain-transport/arterial_trees"
 
     # Only need to compute subtree information once for each mesh
     if args.recompute:
