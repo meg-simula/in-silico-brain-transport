@@ -1,5 +1,6 @@
 import pyvista as pv
 import numpy as np
+from dolfin import *
 
 def remove_duplicate_cells(netw):
     cells = np.array(netw.cells.reshape(-1, 3))[:,1:]
