@@ -476,8 +476,8 @@ def run_all_tests():
 def main(args):
 
     # Define input network (.vtk) and output directory
-    filename = "../mesh/networks/arteries_smooth.vtk"
-    output = "../mesh/networks/arterial_trees"
+    filename = "arteries_smooth.vtk"
+    output = "../arterial_trees"
 
     # Only need to compute subtree information once for each mesh
     if args.recompute:
