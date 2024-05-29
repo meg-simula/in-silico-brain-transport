@@ -23,6 +23,8 @@ dependencies:
   - ipyvolume
   - scipy
   - ipykernel 
+  - ipywidgets
+  - ipython
   - pip:
     - pyacvd
     - cmocean
