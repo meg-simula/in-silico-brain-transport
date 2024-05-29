@@ -22,9 +22,9 @@ dependencies:
   - ipyvolume
   - scipy
   - ipykernel
-  - ipywidgets
   - ipython
   - pip:
+    - ipywidgets<8.0
     - pyacvd
     - cmocean
     - dufte
