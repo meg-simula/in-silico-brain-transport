@@ -9,7 +9,7 @@ To install all dependencies with mamba:
 
 This will create the environment 'brain_transport'. Activate with:
 
-`mamba activate binder/brain_transport`
+`mamba activate brain_transport`
 
 To use conda instead of mamba, replace mamba with conda in the above.
 
