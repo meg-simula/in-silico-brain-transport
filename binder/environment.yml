@@ -17,6 +17,10 @@ dependencies:
   - pykdtree
   - bioconda::snakemake
   - voila
+  - bqplot
+  - ipympl
+  - ipyvolume
+  - scipy
   - pip:
     - pyacvd
     - cmocean
