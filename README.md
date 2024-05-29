@@ -5,11 +5,11 @@ molecular transport.
 
 To install all dependencies with mamba:
 
-`mamba env create -f /binder/environment.yml`
+`mamba env create -f binder/environment.yml`
 
 This will create the environment 'brain_transport'. Activate with:
 
-`mamba activate /binder/brain_transport`
+`mamba activate binder/brain_transport`
 
 To use conda instead of mamba, replace mamba with conda in the above.
 
