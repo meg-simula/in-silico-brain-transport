@@ -25,6 +25,8 @@ dependencies:
   - ipykernel
   - nbconvert
   - trame
+  - trame-vtk
+  - trame-vuetify 
   - pip:
     - pyacvd
     - cmocean
