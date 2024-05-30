@@ -7,30 +7,29 @@ dependencies:
   - numpy
   - numpy-indexed
   - matplotlib
-  - pyvista
-  - scikit-image
   - meshio
-  - seaborn
   - nibabel
-  - pip
-  - typer
-  - pykdtree
   - bioconda::snakemake
   - voila
   - bqplot
   - ipympl
-  - ipyvolume
   - scipy
-  - ipywidgets 
-  - ipykernel
-  - nbconvert
   - trame
   - trame-vtk
   - trame-vuetify 
   - vtk
   - pip:
     - pyacvd
+    - pyvista
+    - scikit-image
+    - pykdtree
+    - ipywidgets 
+    - ipykernel
+    - seaborn
+    - ipyvolume
+    - nbconvert
     - cmocean
     - dufte
     - kimimaro
+    - typer
     - git+https://github.com/MariusCausemann/wildmeshing-python.git
