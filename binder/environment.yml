@@ -21,6 +21,9 @@ dependencies:
   - ipympl
   - ipyvolume
   - scipy
+  - ipywidgets 
+  - ipykernel
+  - nbconvert
   - pip:
     - pyacvd
     - cmocean
