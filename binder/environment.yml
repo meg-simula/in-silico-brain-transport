@@ -27,3 +27,14 @@ dependencies:
   - pykdtree
   - ipyvolume
   - nbconvert
+  - nodejs
+  - pip
+  - pip:
+      - jupyterlab_widgets
+      - jupyterlab-voila
+      
+postBuild:
+- jupyter labextension install @voila-dashborads/jupyterlab-preview
+- jupyter serverextension enable voila --sys-prefix
+- jupyter nbextension enable --py widgetsnbextension
+- jupyter lab build
