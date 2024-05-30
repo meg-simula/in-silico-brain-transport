@@ -27,6 +27,7 @@ dependencies:
   - trame
   - trame-vtk
   - trame-vuetify 
+  - vtk
   - pip:
     - pyacvd
     - cmocean
