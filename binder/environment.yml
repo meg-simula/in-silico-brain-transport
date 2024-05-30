@@ -20,19 +20,10 @@ dependencies:
   - vtk
   - hdf5
   - jupyter
-  - pip
-  - pip:
-    - pyacvd
-    - pyvista
-    - scikit-image
-    - pykdtree
-    - ipywidgets 
-    - ipykernel
-    - seaborn
-    - ipyvolume
-    - nbconvert
-    - cmocean
-    - dufte
-    - kimimaro
-    - typer
-    - git+https://github.com/MariusCausemann/wildmeshing-python.git
+  - pyvista
+  - scikit-image
+  - ipywidgets 
+  - ipykernel
+  - pykdtree
+  - ipyvolume
+  - nbconvert
