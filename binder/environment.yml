@@ -18,6 +18,7 @@ dependencies:
   - trame-vtk
   - trame-vuetify 
   - vtk
+  - hdf5
   - pip:
     - pyacvd
     - pyvista
