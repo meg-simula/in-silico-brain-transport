@@ -22,6 +22,7 @@ dependencies:
   - scikit-image
   - trame
   - trame-vtk 
+  - trame-vuetify
   - voila
   - pip 
   - pip:
