@@ -2,34 +2,30 @@ name: brain_transport
 channels:
   - conda-forge
 dependencies:
-  - fenics-dolfin
-  - python=3.9    
-  - numpy
-  - numpy-indexed
-  - matplotlib
-  - meshio
-  - nibabel
-  - bioconda::snakemake
-  - voila
+  - python=3.9  
   - bqplot
-  - ipympl
-  - scipy
-  - trame
-  - trame-vtk
-  - trame-vuetify 
-  - vtk
+  - fenics-dolfin
   - hdf5
-  - jupyter
-  - pyvista
-  - scikit-image
+  - ipympl
+  - ipyvolume
   - ipywidgets 
   - ipykernel
+  - jupyter
+  - matplotlib
+  - meshio
+  - numpy
+  - numpy-indexed
+  - nibabel
+  - pyvista
   - pykdtree
-  - ipyvolume
-  - nbconvert
-      
-postBuild:
-- jupyter labextension install @voila-dashborads/jupyterlab-preview
-- jupyter serverextension enable voila --sys-prefix
-- jupyter nbextension enable --py widgetsnbextension
-- jupyter lab build
+  - scipy
+  - scikit-image
+  - trame
+  - trame-vtk 
+  - voila
+  - vtk
+  - pip:
+    - pyacvd
+    - dufte
+    - kimimaro
+    - git+https://github.com/MariusCausemann/wildmeshing-python.git
