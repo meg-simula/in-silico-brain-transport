@@ -23,7 +23,7 @@ dependencies:
   - trame
   - trame-vtk 
   - voila
-  - vtk
+  - pip 
   - pip:
     - pyacvd
     - dufte
