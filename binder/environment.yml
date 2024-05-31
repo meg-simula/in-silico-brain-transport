@@ -20,6 +20,10 @@ dependencies:
   - pykdtree
   - scipy
   - scikit-image
+  - trame 
+  - trame-vtk
+  - trame-vuetify
+  - jupyter-server-proxy
   - voila
   - vtk
   - pip 
