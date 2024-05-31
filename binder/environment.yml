@@ -23,7 +23,7 @@ dependencies:
   - trame
   - trame-vtk 
   - trame-vuetify
-  - trame_jupyter_extension
+  - trame-jupyter-extension
   - voila
   - vtk
   - pip 
