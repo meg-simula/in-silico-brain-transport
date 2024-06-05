@@ -14,6 +14,9 @@ This will create the environment 'brain_transport'. Activate with:
 To use conda instead of mamba, replace mamba with conda in the above.
 
 #### To run simulation locally: 
+
 git clone https://github.com/scientificcomputing/perivascular-peristalsis/tree/main
+
 cd in-silico-brain-transport
+
 voila peristaltic_flow_jupyter.ipynb
